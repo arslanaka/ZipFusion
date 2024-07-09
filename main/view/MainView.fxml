@@ -7,7 +7,7 @@
 
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="main.MainApp"
+      fx:controller="main.controller.MainController"
       spacing="10" alignment="CENTER">
     <Text fx:id="statusText" text="Choose a file to compress" />
     <Button text="Choose File" onAction="#onChooseFile" />
